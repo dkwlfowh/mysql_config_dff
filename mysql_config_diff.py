@@ -155,6 +155,7 @@ if __name__ == '__main__':
     for i in data_array:
         ip=i[2]
         port=int(i[3])
+        # DB 쿼리 수행 
         variables_data=fetch_data(ip,'lee','Dldbsgud12!',port)
         variables_data.insert(0,{'variable_name':'host_name','variable_value':i[1]})
         variables_data_list.append(variables_data)
