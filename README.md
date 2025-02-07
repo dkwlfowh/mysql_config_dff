@@ -33,7 +33,7 @@ pip install openpyxl
 python [파이썬코드파일] --save_path [DB접속 정보 엑셀 파일 위치]
 
 C:\Users\user201203\Desktop\python\mysql_config_diff> python mysql_config_diff.py --save_path C:\Users\user201203\Desktop\python\mysql_config_diff\connection_list.xlsx
-[['game', 'aws_3306', '43.203.199.175', 3306], ['game', 'aws_3307', '43.203.199.175', 3307], ['game', 'aws_3308', '43.203.199.175', 3308]]
+[['1', 'aws_3306', '43.203.199.175', 3306], ['2', 'aws_3307', '43.203.199.175', 3307], ['3', 'aws_3308', '43.203.199.175', 3308]]
 ```
 
 
